@@ -1,0 +1,44 @@
+@import template
+
+header
+  display: flex
+  align-items: center
+  height: 110px
+  justify-content: space-between
+  width: 100%
+  padding: 0 100px
+  .logo-container
+    display: flex
+    align-items: center
+    gap: 1.2rem
+    .logo
+      height: 3rem
+      fill: $ciWhite
+    .line
+      height: 3rem
+      width: 5px
+      background-color: $ciWhite
+    h1
+      font-family: $poppins
+      font-weight: 1000
+      font-size: 2.5rem
+      text-transform: uppercase
+      color: $ciWhite
+    .header-bg
+      position: absolute
+      left: 0
+      top: 0
+      z-index: -1
+  .nav
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 25rem
+    list-style: none
+    li
+      a
+        color: $ciBlack
+        text-decoration: none
+        transition: 100ms ease-in-out
+        &:hover
+          color: $ciBlue
