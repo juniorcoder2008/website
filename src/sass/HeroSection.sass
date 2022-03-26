@@ -1,14 +1,15 @@
 @import template
 
-.hero-section
+#hero-section
   margin-top: 4rem
   .hero-title
     margin-top: 12rem
     p
       text-transform: uppercase
       text-align: center
+      font-size: 1.2rem
     h1
-      font-size: 4rem
+      font-size: 5.2rem
       font-family: $poppins
       font-weight: 1000
       margin-top: -1rem
@@ -16,7 +17,8 @@
   .intro-text
     color: $ciGray
     text-align: center
-    margin-top: 2rem
+    margin-top: 4rem
+    font-size: 1.2rem
   .icons
     display: flex
     gap: 2.5rem
@@ -39,15 +41,18 @@
     height: 3rem
     border-radius: 50%
     position: relative
-    margin: 10rem auto 0 auto
+    margin: 15rem auto 0 auto
+    transition: 150ms
+    &:hover
+      transform: translateY(5px)
     svg
       width: 2rem
       fill: $ciWhite
   .dots-01
     position: absolute
-    top: 180px
+    top: 220px
     left: -20px
   .dots-02
     position: absolute
-    bottom: 10rem
+    top: 40rem
     right: 0

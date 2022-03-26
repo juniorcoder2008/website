@@ -1,0 +1,70 @@
+@import template
+
+#projects
+  margin-top: 10rem
+  .heading
+    font-size: 2.5rem
+    font-family: $poppins
+    font-weight: 1000
+    margin-bottom: 4rem
+    text-align: center
+  .project
+    padding: 0 20rem
+    position: relative
+    display: flex
+    flex-direction: column
+    @media screen and (min-width: 2560px)
+      padding: 0 38rem
+    img
+      position: absolute
+      right: 20rem
+      @media screen and (min-width: 2560px)
+        right: 38rem
+    .icons
+      display: flex
+      gap: 1rem
+      margin-top: 2rem
+      a
+        svg
+          width: 2rem
+          transition: 100ms
+          &:hover
+            fill: $ciBlue
+    .frameworks
+      span
+        color: $ciBlue
+        font-weight: 500
+        text-transform: uppercase
+    .desc
+      span
+        font-weight: 700
+    p
+      width: 30rem
+      line-height: 28px
+      font-weight: 300
+      margin-top: 1rem
+  .solve
+    margin-bottom: 15rem
+    h1
+      font-weight: 1000
+      font-family: $poppins
+      text-transform: uppercase
+    img
+      width: 40rem
+      border-radius: 1rem
+  .taekwondo
+    margin-bottom: 12rem
+    align-items: end
+    h1
+      font-weight: 1000
+      font-family: $poppins
+      text-transform: uppercase
+      width: 30rem
+    img
+      width: 35rem
+      border-radius: 1rem
+      left: 20rem
+      @media screen and (min-width: 2560px)
+        left: 38rem
+    .icons
+      width: 30rem
