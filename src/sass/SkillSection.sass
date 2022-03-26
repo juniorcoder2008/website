@@ -31,3 +31,26 @@
   @media screen and (min-width: 2560px)
     .skills
       padding: 0 55rem
+  @media screen and ( max-width: 1735px )
+    .skills
+      padding: 0 20rem
+  @media screen and ( max-width: 1560px )
+    .skills
+      padding: 0 15rem
+  @media screen and ( max-width: 1000px )
+    .skills
+      padding: 0
+      width: 100%
+      text-align: center
+  @media screen and ( max-width: 900px )
+    .skills
+      li
+        display: flex
+        flex-direction: column
+        width: 70%
+        position: relative
+        margin: 0 auto
+        &::before
+          content: ''
+          height: 0
+          width: 0

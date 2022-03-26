@@ -42,3 +42,18 @@ header
         transition: 100ms ease-in-out
         &:hover
           color: $ciBlue
+  @media screen and ( max-width: 1250px )
+    border-bottom: 2px solid rgba(0, 0, 0, .1)
+    height: 90px
+    .logo-container
+      .header-bg
+        display: none
+      .logo
+        fill: $ciBlack
+      h1, .line
+        display: none
+  @media screen and ( max-width: 895px )
+    padding: 0 5rem
+  @media screen and ( max-width: 770px )
+    .nav
+      width: 20rem

@@ -66,5 +66,55 @@
       left: 20rem
       @media screen and (min-width: 2560px)
         left: 38rem
+      @media screen and (max-width: 1920px)
+        left: 15rem
+      @media screen and ( max-width: 1735px )
+        left: 10rem
+      @media screen and ( max-width: 1560px )
+        left: 5rem
     .icons
       width: 30rem
+  @media screen and (max-width: 1920px)
+    .project
+      padding: 0 15rem
+      img
+        right: 15rem
+  @media screen and ( max-width: 1735px )
+    .project
+      padding: 0 10rem
+      img
+        right: 10rem
+  @media screen and ( max-width: 1560px )
+    .project
+      padding: 0 5rem
+      img
+        right: 5rem
+  @media screen and ( max-width: 1390px )
+    .project
+      display: flex
+      flex-direction: column
+      align-items: flex-start
+      text-align: center
+      width: 100%
+      margin-bottom: 12rem
+      p
+        width: 30rem
+        position: relative
+        margin: 0 auto
+      h1
+        text-align: center
+        width: 100%
+      img
+        position: relative
+        margin: 3rem auto 0 auto
+        padding: 0
+        left: 0
+        right: 0
+      .icons
+        justify-content: center
+        width: 100%
+  @media screen and ( max-width: 735px )
+    .project
+      img
+        position: static
+        width: 100%
